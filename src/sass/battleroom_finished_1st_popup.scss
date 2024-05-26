@@ -119,7 +119,7 @@ body {
 }
 
 .status-bar {
-    width: 250px;
+    width: 100%;
     height: 25px;
     border-radius: 5px;
     font-size: 16px;
@@ -291,6 +291,9 @@ img {
     color: #F8D05F;
 }
 .sidebar-menu-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     width: 82%;
 }
 
@@ -773,7 +776,7 @@ img {
     .date-wrapper {
         width: 90%;
         position: absolute;
-        bottom: calc(32em + -6px);
+        bottom: calc(31em + -6px);
     }
 
     .logo-img_main-logo {
@@ -1120,6 +1123,9 @@ tbody :last-child {
 }
 
 .containers-second_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 72%;
     margin-left: 9rem;
 }
@@ -1904,6 +1910,7 @@ tbody :last-child {
     z-index: 99;
 }
 .sidebar-modal {
+    height: min-content;
     flex-direction: column;
     width: 100%;
     display: flex;
