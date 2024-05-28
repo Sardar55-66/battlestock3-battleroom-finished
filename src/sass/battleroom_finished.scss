@@ -1418,10 +1418,7 @@ tbody :last-child {
     width: 72%;
     margin-left: 7rem;
 }
-// .game-info_panel {
-//     width: 100%;
-//     margin-left: 15rem;
-// }
+
 
 .left-right_container__no-players {
     padding-left: 15px;
@@ -1973,4 +1970,10 @@ tbody :last-child {
 .sidebar-modal_wrapper {
     display: flex;
     width: 160px;
+}
+
+@media(max-width: 1630px) {
+    .containers-wrapper__first {
+        margin-left: 1px !important;
+    }
 }
