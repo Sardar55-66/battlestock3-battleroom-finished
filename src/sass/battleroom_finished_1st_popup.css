@@ -624,8 +624,11 @@ img {
 }
 
 @media (max-width: 1025px) {
-  .modal-dialog {
+  .find-new-battle {
     width: 90% !important;
+  }
+  .modal-dialog {
+    width: 95% !important;
     min-width: auto !important;
   }
   .left-container__header-wrapper {
@@ -634,7 +637,6 @@ img {
     flex-direction: row;
     z-index: 99;
     border-bottom: 1px solid #F8D05F;
-    left: 6px;
     border: 1px solid #F8D05F;
     height: 48px;
     background-color: #3F0437;
@@ -1835,9 +1837,9 @@ tbody :last-child {
   text-align: center;
 }
 
-.card-inner > span {
+.card-inner > a > span {
   font-family: "Gordita";
-  font-size: 20px;
+  font-size: 24px;
   color: #FEFFAB;
   margin-bottom: 20px;
   display: inline-block;
@@ -1977,7 +1979,7 @@ tbody :last-child {
 
 @media (min-width: 1024px) {
   .containers-wrapper, .containers-wrapper__first {
-    margin-left: 19px;
-    margin-right: -2px;
+    margin-left: 19px !important;
+    margin-right: -2px !important;
   }
 }/*# sourceMappingURL=battleroom_finished_1st_popup.css.map */
