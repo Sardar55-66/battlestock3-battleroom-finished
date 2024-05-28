@@ -624,8 +624,11 @@ img {
 }
 
 @media (max-width: 1025px) {
+  .find-new-battle {
+    width: 100% !important;
+  }
   .modal-dialog {
-    width: 90% !important;
+    width: 96% !important;
     min-width: auto !important;
   }
   .left-container__header-wrapper {
@@ -634,7 +637,6 @@ img {
     flex-direction: row;
     z-index: 99;
     border-bottom: 1px solid #F8D05F;
-    left: 6px;
     border: 1px solid #F8D05F;
     height: 48px;
     background-color: #3F0437;
@@ -691,8 +693,8 @@ img {
   }
   .right-container {
     margin-top: 20px;
-    margin-left: 0 !important;
-    max-width: 99% !important;
+    margin-left: -6px !important;
+    max-width: 100% !important;
   }
   .social-media {
     right: 0;
