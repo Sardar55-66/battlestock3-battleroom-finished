@@ -930,7 +930,7 @@ img {
     .date-wrapper {
         width: 90%;
         position: absolute;
-        bottom: calc(32em + -6px);
+        bottom: calc(31em + -6px);
     }
 
     .logo-img_main-logo {
@@ -1972,7 +1972,7 @@ tbody :last-child {
     width: 160px;
 }
 
-@media(max-width: 1630px) {
+@media(min-width: 1024px) and (max-width: 1630px) {
     .containers-wrapper__first {
         margin-left: 1px !important;
     }
