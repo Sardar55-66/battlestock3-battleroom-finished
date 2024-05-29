@@ -215,7 +215,7 @@ img {
 
 .sidebars-inner_wrapper {
   position: absolute;
-  height: calc(136% + 14px);
+  height: calc(136% + 18px);
   border-bottom: none;
 }
 
