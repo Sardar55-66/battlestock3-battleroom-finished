@@ -296,7 +296,8 @@ img {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 82%;
+  width: 95%;
+  margin: 0 auto;
 }
 
 .sidebar-menu-list > div {
